@@ -59,8 +59,8 @@ $brand-info:                $peter-river !default;
 //
 //## Settings for some of the most global styles.
 
-$body-bg:                   mix($nephritis,white,75%)
-$text-color:                $brand-primary;
+$body-bg:                   mix($nephritis,white,75%) !default;
+$text-color:                $brand-primary !default;
 
 //** Global textual link color.
 $link-color:                $alizarin !default;
