@@ -48,10 +48,10 @@ $inverse:                   white !default;
 
 // Brand colors
 $brand-primary:             $wet-asphalt !default;
-$brand-secondary:           $pomegranate !default;
+$brand-secondary:           $nephritis !default;
 $brand-success:             $emerald !default;
 $brand-warning:             $sun-flower !default;
-$brand-danger:              $alizarin !default;
+$brand-danger:              $pomegranate !default;
 $brand-info:                $peter-river !default;
 
 
@@ -59,8 +59,8 @@ $brand-info:                $peter-river !default;
 //
 //## Settings for some of the most global styles.
 
-$body-bg:                   #fff !default;
-$text-color:                $brand-primary !default;
+$body-bg:                   mix($nephritis,white,75%)
+$text-color:                mix($nephritis,black,50%);
 
 //** Global textual link color.
 $link-color:                $alizarin !default;
